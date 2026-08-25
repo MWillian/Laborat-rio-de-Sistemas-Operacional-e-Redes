@@ -61,7 +61,7 @@ O processo de administração e configuração de permissões seguiu as seguinte
 
 ---
 
-## Problemas e soluções
+## 6. Problemas e soluções
 
 
 Durante a execução dos passo, não foram encontrados problemas.
