@@ -35,5 +35,38 @@ O processo de administração e configuração de permissões seguiu as seguinte
 
 ---
 
+## 5. Testes e Validação
+
+### Teste A  
+
+![teste_a](./imagens/aula2/testea.png)  
+
+
+### Teste B
+
+![teste_b](./imagens/aula2/testeb.png)  
+
+
+### Criação de pasta `financeiro` por usuário `fulano`
+
+![criação_de_pasta_financeiro](./imagens/aula2/criação%20de%20pasta%20financeiro%20por%20cicrano%202.png)  
+
+### Tentativa de acesso a pasta por `fulano`
+
+![tentativa_de_acesso_a_pasta_por_fulano](./imagens/aula2/tentativa%20de%20acesso%20a%20pasta%20financeiro%20por%20fulano.png)  
+
+### Tentativa de acesso a pasta por `novato`
+
+![tentativa_de_acesso_a_pasta_por_fulano](./imagens/aula2/tentativa%20de%20acesso%20a%20pasta%20financeiro%20por%20novato.png)
+
+---
+
+## Problemas e soluções
+
+
+Durante a execução dos passo, não foram encontrados problemas.
+
+---
+
 ## 7. Conclusão
 A correta administração de usuários, grupos e permissões é o pilar central da segurança e da integridade em servidores Linux. Através da prática, ficou evidente como a combinação da política de propriedade com o controle de permissões baseada na notação octal implementa o princípio do menor privilégio. Negligenciar a configuração correta da dos diretórios pode resultar no vazamento de informações sigilosas, edição indevida de configurações e exposição de falhas de segurança.
