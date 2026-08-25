@@ -18,7 +18,9 @@ Compreender os conceitos fundamentais de virtualização por meio da preparaçã
 * **Hardware Físico (Host):**
   * **Processador:** AMD Ryzen 5 5600GT
   * **Memória RAM:** 16 GB DDR4 (3200 MHz)
-  * **Placa-mãe:** ASUS TUF Gaming A520M-Plus
+  * **Placa-mãe:** ASUS TUF Gaming A520M-Plus  
+![preparação da VM sem a ISO carregada](./imagens/aula1/preparação%20da%20vm.png)
+
 * **Virtualizador:** Oracle VM VirtualBox versão 7.1.18r173720
 * **Imagem ISO Utilizada:** `ubuntu-22.04.5-live-server-amd64.iso`
 * **Configurações da Máquina Virtual (Guest):**
@@ -55,15 +57,30 @@ O processo foi dividido nas seguintes etapas principais:
      * *Your server's name:* `ubuntu_server`
      * *Username:* `administrador`
      * *Password:* `adminifal`
+---
+
+## 5. Testes e Validação
+
+### Listagem de endereços iP  
+
+![Endereços IP](./imagens/aula1/endereço%20ip.png)  
+
+### Atualização de pacotes  
+
+![Atualização de pacotes](./imagens/aula1/sudo%20apt-get.png)
 
 ---
 
-
-## 5. Problemas e Soluções
+## 6. Problemas e Soluções
 * **Problema Encontrado (Kernel Panic no Boot da ISO):**
   * *Descrição:* Ao iniciar o instalador do Ubuntu Server, o processo de boot foi interrompido abruptamente por um erro crítico de *Kernel Panic / Out of Memory*, impedindo a carga do instalador interativo.
   * *Causa:* A quantidade de memória RAM inicialmente atribuída à máquina virtual foi de 512 MB (conforme especificação do laboratório), valor insuficiente para descompactar o instalador em memória e carregar-lo.
   * *Solução:* A VM foi desligada e, nas configurações do VirtualBox (**Sistema > Placa-mãe > Memória Base**), a quantidade de memória RAM foi alterado de **512 MB** para **2048 MB (2 GB)**.
+
+* **Problema Encontrado (Erro de Inicialização VERR_SVM_DISABLED):**
+  * *Descrição:* Ao tentar ligar a máquina virtual pela primeira vez, o VirtualBox exibiu o erro `VERR_SVM_DISABLED` (Código `NS_ERROR_FAILURE`), impedindo a VM de iniciar.
+  * *Causa:* A tecnologia de virtualização de hardware da AMD (AMD-V / SVM Mode) estava desativada por padrão na BIOS/UEFI da placa-mãe do Host.
+  * *Solução:* O computador físico foi reiniciado e a BIOS acessada. No menu *Advanced Mode > CPU Configuration*, a opção *SVM Mode* foi alterada de *Disabled* para `Enabled`. Após salvar as alterações e reiniciar o sistema Windows, a VM ligou normalmente.
 
 ---
 
