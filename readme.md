@@ -13,7 +13,8 @@ Abaixo estão os links para a documentação de cada aula prática:
 
 * [Aula Prática 01: Introdução à Virtualização e Instalação do Ubuntu Server](./Aula%20Prática%2001:%20Introdução%20à%20Virtualização%20e%20Instalação%20do%20Ubuntu%20Server%2026.04.md)
 * [Aula Prática 02: Administração de Usuários, Grupos e Permissões no Linux](./Aula%2002:%20Administração%20de%20Usuários,%20Grupos%20e%20Permissões%20no%20Linux.md)
-* [Aula Prática 03: Estrutura FHS e Permissões Avançadas no Linux Server](./Aula%20Prática%2003%20-%20Estrutura%20FHS%20e%20Permissões%20Avançadas%20no%20Linux%20Server.md)
+* [Aula Prática 03: Estrutura FHS e Permissões Avançadas no Linux Server](./Aula%20Prática%2003%20-%20Estrutura%20FHS%20e%20Permissões%20Avançadas%20no%20Linux%20Server.md)  
+* [Aula Prática 04: Manipulação, Edição, Permissões e Automação de Arquivos no Linux](./Aula%20Prática%2004:%20Manipulação,%20Edição,%20Permissões%20e%20Automação%20de%20Arquivos%20no%20Linux.md)
 
 ---
 *Repositório mantido para fins acadêmicos e documentação de práticas de laboratório.*
