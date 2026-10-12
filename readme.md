@@ -18,7 +18,7 @@ Abaixo estão os links para a documentação de cada aula prática:
 * [Aula Prática 05: Acesso Remoto SSH via Redirecionamento de Portas no VirtualBox e Diagnóstico de Rede](./Aula%20Prática%2005:%20Acesso%20Remoto%20SSH%20via%20Redirecionamento%20de%20Portas%20no%20VirtualBox%20e%20Diagnóstico%20de%20Rede.md)
 * [Aula Prática 06: Configuração de Rede Estática com Netplan e Modo Placa em Ponte (Bridge Adapter) no VirtualBox](./Aula%20Prática%2006:%20Configuração%20de%20Rede%20Estática%20com%20Netplan%20e%20Modo%20Placa%20em%20Ponte%20(Bridge%20Adapter)%20no%20VirtualBox.md)
 * [Aula Prática 07: Roteamento e Gateway NAT com IPTables e Rede Interna no VirtualBox](./Aula%20Prática%2007:%20Roteamento%20e%20Gateway%20NAT%20com%20IPTables%20e%20Rede%20Interna%20no%20VirtualBox.md)
-* [Aula Prática 08: Configuração do Gateway (VM1) — IPTables, NAT e Testes](Aula%20Prática%2008:%20Configuração%20do%20Gateway%20(VM1)%20—%20IPTables,%20NAT%20e%20Testes.md)
+* [Aula Prática 08: Configuração do Gateway (VM1) — IPTables, NAT e Testes](./Aula%20Prática%2008:%20Configuração%20do%20Gateway%20(VM1)%20—%20IPTables,%20NAT%20e%20Testes.md)
 
 ---
 *Repositório mantido para fins acadêmicos e documentação de práticas de laboratório.*
