@@ -3,7 +3,7 @@
 * **Curso:** Sistemas de Informação
 * **Turma:** 2023.1
 * **Data:** 23/08/2026
-* **Título da prática:** Aula Prática 06: Configuração de Rede Estática com Netplan e Modo Placa em Ponte (Bridge Adapter) no VirtualBox
+* **Título da prática:** Aula Prática 07: Roteamento e Gateway NAT com IPTables e Rede Interna no VirtualBox
 
 ---
 
